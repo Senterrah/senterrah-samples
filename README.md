@@ -1,5 +1,3 @@
-# senterrah-samples
-
 Redacted sample data and example loaders for Senterrah’s human-written reasoning datasets.
 
 This repository is only for **tiny, non-sensitive samples** – just enough for ML teams to see the structure, fields, and metadata used in production.
