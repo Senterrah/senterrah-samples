@@ -34,7 +34,7 @@ You can add:
 ## Example Record (decision sample)
 
 ```json
-{
+
 {
   "id": "dec_0021",
   "category": "high_intent_decision",
@@ -109,5 +109,4 @@ You can add:
 
   "certainty": "Low"
 }
-  ]
-}
+
