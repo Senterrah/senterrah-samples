@@ -6,7 +6,6 @@ This repository is intentionally small. It exists only to:
 
 - Show what a **single record** looks like in JSONL format
 - Demonstrate how **metadata fields** are structured
-- Provide minimal loader examples
 
 Production datasets are **much larger** and delivered under separate licensing.
 
@@ -21,13 +20,6 @@ Production datasets are **much larger** and delivered under separate licensing.
 
 - `interaction_sample.jsonl`  
   A short interpersonal conflict with reasoning steps.
-
-### `loaders/` (optional later)
-
-You can add:
-
-- `python/loader.py` – basic JSONL reader + filter by field
-- `notebooks/demo.ipynb` – quick exploration
 
 ---
 
