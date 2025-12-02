@@ -35,46 +35,79 @@ You can add:
 
 ```json
 {
-  "id": "dec_0001",
+{
+  "id": "dec_0021",
   "category": "high_intent_decision",
-  "title": "Thanksgiving invitation revoked over delayed payment response",
-  "body": "My dad and his wife invited my husband and me over for Thanksgiving this year. Because they didn't have space at their place, he offered to pay for a hotel for us. Later he changed it so we would split the cost, which I was fine with.\n\nOn Friday I sent him the first half of the money and planned to send the rest after my next paycheck. On Monday his wife texted us at 6 a.m. asking if we were sending the rest. I was getting ready for work and juggling other things, so I forgot to reply right away. Later that day I sent the remaining money and texted my dad to let him know, and I asked if they wanted us to bring anything for Thanksgiving.\n\nA few hours later his wife sent the money back, canceled the hotel, and said we were no longer invited. When she called me the next morning she was aggressive, saying we were disrespectful for not replying to her text. I told her I’m not obligated to respond immediately, which she hated. Now I’m rushing to shop and cook at home instead, and I feel angry and blindsided that a late response turned into being uninvited.",
-  "word_count": 260,
+  "title": "Friends ditched me on my 21st birthday after I paid for a $1000 Airbnb",
+  "body": "Last week was my 21st birthday, and I shared the party with one of my close friends since we were born on the same day. We decided to splurge and rent out a $1000 Airbnb with a hot tub, a pool, and nine bedrooms so both friend groups could stay over. I was really excited and spent the whole week planning out everything, I even spent a lot of money on goodie bags for everyone. The plan for the night was to pregame at the house, and then head directly into the city then later come back to the Airbnb to hang out, open gifts, and relax. However, the night completely fell apart. After we left for the city and went to a couple of clubs, there was this moment where everyone suddenly drifted away slowly into their own plans. Some left with other people, some went to different bars, no one told me anything. I remember standing outside on of the clubs and feeling very lonely on my own birthday after I paid a couple grand to setup the party for everyone. The friend who shared the birthday with me was also upset which made me feel less crazy, but it didn't make the situation hurt any less. I felt very frustrated, embarrassed, and heartbroken. Part of me kept replaying the night in my head, wondering if I did something wrong or if they even cared. Another part of me felt stupid for trying so hard when they've shown signs of being selfish before. Deep down I was afraid that maybe this was just who they were. I kept wondering if I should drop them, but another part of me was worried about being completely alone. I do online school so it's very hard to make new friends. The more I thought about it, the more confused I became. I wasn't sure if I should confront them or forgive them. I am stuck choosing between keeping friends who hurt me or risking having none at all.",
+  "word_count": 323,
   "paragraph_count": 3,
   "language": "en",
-  "decision_type": "Reactive, Punitive",
+
+  "decision_type": "Interpersonal, High-Emotional-Weight, Social Relationship Decision",
+  "decision_scope": "Friendship continuation vs. self-protection",
+  "final_decision_present": false,
   "options_count": 3,
-  "emotions": ["anger", "hurt", "frustration"],
-  "emotion_intensity": 0.8,
-  "reasoning_structure": "Emotional and rule-based: delayed reply interpreted as disrespect leading to punitive withdrawal of invitation.",
+
+  "emotions": ["frustration", "embarrassment", "heartbreak", "confusion", "loneliness", "fear", "insecurity"],
+  "emotion_intensity": 0.84,
+
+  "internal_signal_phrases": [
+    "Part of me",
+    "Another part of me",
+    "Deep down I was afraid",
+    "I kept wondering",
+    "I wasn’t sure"
+  ],
+
+  "reasoning_structure": "Emotion-driven evaluation combined with self-questioning and conflicting internal motivations.",
+  
   "biases": [
-    "Attribution bias (discounting situational factors like timing and workload).",
-    "Hostile attribution bias (interpreting silence as disrespect)."
+    "Negativity bias (overweighting the painful parts of the night)",
+    "Catastrophizing (fear of being completely alone)",
+    "Self-blame tendencies (wondering if they did something wrong)",
+    "Optimism bias override (previously giving friends multiple chances)"
   ],
-  "certainty": "High",
-  "final_decision_present": true,
-  "conflict_type": "Interpersonal conflict, family dynamics, communication breakdown",
-  "complexity": "Medium",
-  "context": "A Thanksgiving invitation with shared hotel costs is revoked after the host's wife interprets a delayed text reply about payment as disrespectful.",
+
+  "conflict_type": "Interpersonal conflict, social neglect, emotional abandonment",
+  "complexity": "High",
+  "context": "A planned joint 21st birthday event falls apart when friends abandon the main activity, leaving the host isolated after making major financial and emotional investment.",
+  
+  "event_timeline": [
+    "Planning the party and preparing goodie bags",
+    "Renting the $1000 Airbnb",
+    "Going to the city and clubs",
+    "Friends splitting off into separate groups without communication",
+    "Standing alone outside the club",
+    "Post-event emotional reflection and dilemma"
+  ],
+
   "options": [
-    "Maintain the invitation and wait for the payment, which did arrive.",
-    "Follow up politely and clarify expectations about timing.",
-    "Return the money and cancel the invitation (chosen)."
+    "Confront the friends about the abandonment and hurt",
+    "Forgive them and continue the friendships",
+    "Completely drop the friend group and prioritize self-respect"
   ],
+
   "criteria": [
-    "Perceived respect in communication.",
-    "Responsiveness to payment requests.",
-    "Personal boundaries about feeling ignored."
+    "Self-respect and emotional safety",
+    "Fear of isolation",
+    "Past behavior patterns indicating selfishness",
+    "Difficulty forming new friendships due to online school"
   ],
-  "emotional_weight": "High",
-  "logical_weight": "Low",
+
+  "emotional_weight": "Very High",
+  "logical_weight": "Moderate",
+  
   "reasoning_steps": [
-    "The wife sends an early-morning text asking for the remainder of the hotel money.",
-    "The writer is busy and does not respond immediately.",
-    "Later the same day the writer sends the money and confirms with her dad.",
-    "The wife focuses on the delay rather than the completed payment.",
-    "She interprets the delay as disrespectful.",
-    "She decides to cancel the hotel and revoke the invitation.",
-    "She returns the money and later calls to justify her decision as a response to 'disrespect'."
+    "Realizes friends abandoned the planned birthday structure and left without communication.",
+    "Feels hurt, embarrassed, and questions whether they did something wrong.",
+    "Notices this behavior aligns with past selfishness from the group.",
+    "Begins comparing self-respect against the fear of being completely alone.",
+    "Considers confronting them, forgiving them, or dropping them entirely.",
+    "Remains uncertain and stuck between emotional safety and the risk of isolation."
+  ],
+
+  "certainty": "Low"
+}
   ]
 }
