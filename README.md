@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="senterrahbanner.png" alt="Senterrah Banner" width="100%">
+</p>
 
 
 Redacted sample data and example loaders for Senterrah’s human-written reasoning datasets.
